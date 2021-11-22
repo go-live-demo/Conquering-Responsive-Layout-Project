@@ -63,6 +63,7 @@ select {
   color: #23424A;
   border: none;
   border-radius: 100px;
+  text-decoration: none;
   font-weight: 900;
   text-transform: uppercase;
   padding: 0.75em 2em;
