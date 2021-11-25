@@ -4,29 +4,71 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Challenge</title>
 
-  <!-- Link Roboto Font -->
+  <!-- Roboto Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
-
-  <title>Conquer Layout</title>
+  <!-- Main Page Style -->
+  <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
 
+<body>
   <!-- Hero Section -->
-  <div class="hero">
+  <header class="hero bg-primary-600">
     <div class="container">
       <div class="hero__text">
-        <h1>Responsive layouts don't have to be a struggle</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, asperiores? Molestiae saepe rem voluptatibus! Quia veritatis maiores ab aspernatur qui.</p>
+        <h1 class="hero__title">Responsive Layouts don't have to be a struggle</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aliquid cumque quidem. Placeat itaque dolorum eius sunt inventore iste repellendus laborum, non facere, consequuntur alias!</p>
         <a href="#" class="btn">I want to learn</a>
-      </div>  
+      </div>
     </div>
-  </div>
+  </header>
+
+  <!-- Features Section -->
+  <section class="features text-center">
+    <!-- First Row -->
+    <div class="split-evenly row bg-light-100 container">
+      <div class="features__card">
+        <h2 class="text-accent">Cheap</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro a accusamus doloribus maiores nulla et quas adipisci, iure dignissimos ut consectetur autem ipsum impedit excepturi!
+        </p>
+      </div>
+      <div class="features__card">
+        <h2 class="text-accent">Quick</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro a accusamus doloribus maiores nulla et quas adipisci, iure dignissimos ut consectetur autem ipsum impedit excepturi!
+        </p>
+      </div>
+      <div class="features__card">
+        <h2 class="text-accent">Quality</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro a accusamus doloribus maiores nulla et quas adipisci, iure dignissimos ut consectetur autem ipsum impedit excepturi!
+        </p>
+      </div>
+    </div>
+
+    <!-- Second Row -->
+    <div class="bg-primary-400 text-center">
+      <div class="split-evenly row container">
+        <div class="features__card">
+          <h2>Cheap</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro a accusamus doloribus maiores nulla et quas adipisci, iure dignissimos ut consectetur autem ipsum impedit excepturi!
+          </p>
+        </div>
+        <div class="features__card">
+          <h2>Quick</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro a accusamus doloribus maiores nulla et quas adipisci, iure dignissimos ut consectetur autem ipsum impedit excepturi!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
 </body>
 </html>
